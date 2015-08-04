@@ -149,9 +149,10 @@ select {
   padding-top: 90px;
 }
 .has-pattern {
-  background-image: url('../images/patterns/pattern-1.png');
+  //background-image: url('../images/patterns/pattern-1.png');
   background-repeat: repeat;
   background-position: left top;
+  margin-top:-60px;
 }
 .delayp1 {
   animation-delay: .1s;
