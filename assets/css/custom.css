@@ -1,0 +1,89 @@
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.green-li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+    line-height: 30px;
+}
+
+.green-li:before {
+    content: "• ";
+    color: #56bc94; /* or whatever color you prefer */
+}
+
+.featured-image{
+    margin: 92px auto auto auto;
+    position: absolute;
+    right: 0;
+}
+    .featured-image img{
+        width: 444px;
+    }
+    
+    .float-left{
+        float:left;
+    }
+    .float-right{
+        float:right;
+    }
+
+.contact-details li.email{
+    padding: 0 0 0 116px !important;
+}
+    .contact-details li.phone{
+        padding: 0 100px 0 0 !important;
+    }
+
+.survey-pic{
+    width: 484px;
+    margin: auto auto auto 73px;
+}
+.how-title{
+    margin: 39px auto 33px
+}
+
+.title2{
+    font-size: 25px !important;
+    padding: 0 0 21px 58px;
+    color: black;
+    text-shadow: none !important;
+    font-weight: bold;
+}   
+    .update-content{
+        margin: 49px 0 0 0;
+        font-size: 19px;
+    }
+    .delayp1{
+        margin-top: 57px;        
+    }
+    
+.footer .container{
+    width: 333px;
+    margin: auto;
+}
+
+.shadow{
+        box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.32);
+}
+    .ghost{
+        opacity: 0.4;
+        color: #CACACA;
+    }
+
+#gather .content{
+    font-size: 17px;
+}
+.social-posts{
+    width: 727px !important;
+    max-width: none;
+}
+    .social-posts-box{
+        padding: 0 0 0 218px !important;
+    }
+
+
+

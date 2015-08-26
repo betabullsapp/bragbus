@@ -149,7 +149,7 @@ select {
   padding-top: 90px;
 }
 .has-pattern {
-  //background-image: url('../images/patterns/pattern-1.png');
+  background-image: url('../images/patterns/pattern-1.png');
   background-repeat: repeat;
   background-position: left top;
   margin-top:-60px;
@@ -354,6 +354,7 @@ select {
   background: #444444;
   color: #fff;
   padding: 15px 0;
+  text-align:center;
 }
 .footer .copyright {
   color: #b3b3b3;
@@ -417,7 +418,7 @@ select {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 .promo .overview .summary {
-  margin-bottom: 60px;
+  margin-bottom: 45px;
   margin-left: 70px;
 }
 .promo .overview .summary li {
@@ -1207,6 +1208,9 @@ select {
   margin-bottom: 10px;
   color: #317b5e;
   font-size: 16px;
+  width: inherit;
+  display: inline-block;
+  padding:0 13px;
 }
 .contact .intro li .fa {
   margin-right: 10px;
@@ -1431,6 +1435,9 @@ select {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .featured-image{
+    display:none;
+  }
   .navbar-toggle {
     margin-right: 0;
   }
