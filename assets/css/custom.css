@@ -44,6 +44,7 @@ ul {
         color: #2A4782;
     }
 
+
 .survey-pic{
     border-bottom: 2px solid #D0D0D0;
 }
@@ -149,4 +150,21 @@ ul {
     }
 
 
-
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .title2{
+        padding: 0 41px;
+    }
+    .social-posts-box{
+        padding: 0 60px !important;
+    }
+        .social-posts{
+            margin: 0 0 0 -169px !important;
+        }
+    .card1 img, .card2 img{
+        margin: 0 0 77px 0;
+    }
+    .contact-details li.email{
+        padding: 0 0 0 61px !important;
+    }
+}
