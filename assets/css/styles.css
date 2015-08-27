@@ -1433,7 +1433,6 @@ select {
 .config-panel .close .fa {
   color: #fff;
 }
-
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .featured-image{
