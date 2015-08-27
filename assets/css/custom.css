@@ -40,17 +40,30 @@ ul {
     .contact-details li.phone{
         padding: 0 100px 0 0 !important;
     }
+    .contact .intro li a, .contact .intro li{
+        color: #2A4782;
+    }
 
 .survey-pic{
-    width: 484px;
-    margin: auto auto auto 73px;
+    border-bottom: 2px solid #D0D0D0;
 }
+.poll-box{
+    margin: 33px auto auto;
+}
+
+.faq{
+    padding: 70px 0 154px;
+}
+.pricing{
+    padding: 80px 0 144px;
+}
+
 .how-title{
     margin: 39px auto 33px;
     font-weight: bold;
 }
     .how{
-        padding: 119px 0 40px;
+        padding: 188px 0 40px
     }
     
     .bragbus-card{
