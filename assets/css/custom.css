@@ -19,9 +19,9 @@ ul {
 }
 
 .featured-image{
-    margin: 92px auto auto auto;
+    margin: 88px auto auto auto;
     position: absolute;
-    right: 0;
+    right: 15px;
 }
     .featured-image img{
         width: 444px;
@@ -107,8 +107,11 @@ ul {
         font-weight: 400;
     }
     
-.header h1.logo a, .header .main-nav .nav .nav-item a{
-    color: #126343;
+.header h1.logo a{
+    font-family: 'Passion One', cursive;
+}
+.header h1.logo a, .header .main-nav .nav .nav-item a, .features .icon .fa, a, a:focus{
+    color: #254BBB;
 }
 
 .footer .container{
@@ -141,12 +144,19 @@ ul {
 #gather .content{
     font-size: 17px;
 }
+.bragbus-webpage-img{
+    text-align:center;
+}
 .social-posts{
-    width: 727px !important;
+    display: block;
+    margin: auto;
     max-width: none;
 }
+    .social-logos{
+        right: 0;
+    }
     .social-posts-box{
-        padding: 0 0 0 218px !important;
+        left: 0;
     }
 
 

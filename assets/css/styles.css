@@ -6,6 +6,21 @@
  * Twitter: @3rdwave_themes
 */
 /* ======= Base ======= */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
@@ -403,6 +418,7 @@ select {
 .promo {
   background-color: #56bc94;
   color: #fff;
+  height: 576px;
 }
 .promo .container {
   padding-bottom: 15px;
@@ -1048,12 +1064,30 @@ select {
 .pricing .item.best-buy {
   top: -15px;
 }
-.pricing .item.best-buy .heading {
-  padding-top: 45px;
-}
-.pricing .item.best-buy .content {
-  padding-bottom: 45px;
-}
+  .pricing .item.best-buy .ribbon .text {
+    background-color: rgb(37, 75, 187);
+  }
+  .pricing .item.best-buy .price-figure {
+    background: rgb(37, 75, 187);
+    border: 5px solid rgb(159, 163, 217);
+  }
+  .pricing .item.best-buy .heading {
+    padding-top: 45px;
+    background: padding-box rgb(196, 200, 231);
+  }
+  .pricing .item.best-buy .heading .title {
+    color: rgb(37, 75, 187);
+  }
+  .pricing .item.best-buy .feature-list li .fa{
+    color: rgb(37, 75, 187);
+  }
+  .pricing .item.best-buy .content {
+    padding-bottom: 45px;
+  }
+  .pricing .item.best-buy .btn-theme {
+    background: rgb(37, 75, 187);
+    border: 1px solid rgb(37, 75, 187);
+  }
 .pricing .item .item-inner {
   background: #fff;
   -webkit-border-radius: 4px;
@@ -1433,6 +1467,7 @@ select {
 .config-panel .close .fa {
   color: #fff;
 }
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .featured-image{
