@@ -17,6 +17,18 @@ ul {
     content: "• ";
     color: #56bc94; /* or whatever color you prefer */
 }
+#gather{ /*Inline #submit anchor*/
+    position: absolute;
+    margin-top: -44px;
+}
+#submit{ /*Inline #submit anchor*/
+    position: absolute;
+    margin-top: -141px;
+}
+#update{ /*Inline #update anchor*/
+    position: absolute;
+    margin-top: -111px;
+}
 
 .featured-image{
     margin: 88px auto auto auto;
@@ -165,12 +177,17 @@ ul {
     .title2{
         padding: 0 41px;
     }
-    
+    .survey-pic-box{
+        margin: 33px auto -72px;
+    }
     .social-posts-box{
         padding: 0 60px !important;
     }
         .social-posts{
-            margin: 0 0 0 -169px !important;
+            margin: auto auto 33px !important;
+        }
+        .bragbus-webpage-img{
+            margin: 33px auto auto;
         }
     .card1 img, .card2 img{
         margin: 0 0 77px 0;
